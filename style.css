@@ -1,3 +1,66 @@
-body{ 
+body {
+    font-family: Arial, sans-serif;
     background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+.quarter{
+    width: 200px;
+    height:200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
+
+  
+  .heads{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a0/2006_Quarter_Proof.png);
+    background-size: cover;
+  }
+
+  .tails{
+    background-image: url(https://cdn.coinvalues.com/images/easyblog_images/403/COBREcentavosecuador2000-2.png), url(https://www.vhv.rs/dpng/d/484-4843569_quarter-transparent-tail-coin-hd-png-download.png);
+    background-size: cover;
+  }
+
+  .result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+
+  
+
+  
+  
+  
+  

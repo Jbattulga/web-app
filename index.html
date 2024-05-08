@@ -16,7 +16,7 @@
          <link rel="apple-touch-icon" href="favicon.png">
          <meta name="apple-mobile-web-app-title" content="Web App">
          <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+         <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
     </head>
     <body>
@@ -28,3 +28,34 @@
     </body>
 </html>
 
+<body>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Quarter Flipper</title>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <div class="container">
+        <h1>Not sure? Flip this quarter for heads or tails!</h1>
+   
+        <div id="coin" class=''>
+            <div id="heads" class="heads"></div>
+            <div id="tails" class="tails"></div>
+          </div>
+
+        <div class="quarter" id="quarter"></div>
+        <button onclick="flipQuarter()">Flip Quarter</button>
+      </div>
+    
+      <script src="script.js"></script>
+    </body>
+    </html>
+
+    <p>Heads: <span id="headsCount">0</span> Tails: <span id="tailsCount">0</span></p>
+  <p><span id="status"></span></p>
+</div>
+    
